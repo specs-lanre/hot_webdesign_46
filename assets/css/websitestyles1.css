@@ -1,0 +1,56 @@
+
+
+
+.navbar{
+background-color:rgb(0, 0, 0);
+height:auto;
+text-align:center;
+padding:10px  0px;
+}
+
+.cover{
+background-color:rgba(0, 0, 0,0.78);
+height:auto;
+text-align:center;
+padding:50px 0px 50px 0px;
+}
+
+
+.logo{width:120px;}
+
+.desc{
+font-size:18px;color:white;test-align:;"
+}
+.logo_text{font-size:40px;color:white;}
+
+.header_links {
+padding:20px 0px;
+}
+
+
+.header_links a{background-color:rgb(207, 44, 3);color:white;font-size:20px;
+text-decoration:none;display:inline-block;
+font-family:"Arial";
+padding:10px 25px;transition:background-color .3s;
+border:rgb(207, 44, 3) solid 2px;  border-radius:10px;}
+
+.header_links a:hover {background-color:rgb(255, 255, 255);color:rgb(207, 44, 3);}
+.desc{width:700px;display:inline-block;}
+
+.navlinks{display:inline-block;border:solid red 0px;width:40%;}
+.navlinks li{display:inline-block;list-style-type:none;
+}
+.navbar {text-align:center;;border:solid white 2px;}
+
+
+.navbar .navlinks li a{color:white;margin:0px 5px;text-decoration:none;}
+
+.navbar .navlinks li a:hover{color:rgb(207, 44, 3);margin:0px 5px;text-decoration:none;}
+
+
+@media screen and (max-width:750px){
+.desc{border:solid rgb(207, 44, 3) 1px;width:auto;padding:20px;}
+.navlinks{ width:90%;}
+
+.cover{padding:50px 0px 50px 0px;}
+}

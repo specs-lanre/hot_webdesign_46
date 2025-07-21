@@ -1,0 +1,151 @@
+
+
+
+.intro{
+padding:20px;
+text-align:center;
+margin:25px 0px;
+vertical-align:top;
+}
+
+
+.intro_left{
+display:inline-block;
+width:45%;height:auto;
+padding:10px  0px;
+vertical-align:top;
+}
+
+.intro_title{
+padding:10px;
+font-family:Tahoma;font-size:40px;
+}
+.intro_content{
+padding:10px;text-align:justify;
+font-size:18px;
+font-family:Arial;
+}
+
+.intro_right{
+display:inline-block;width:45%;height:400px;
+padding:10px  0px;
+vertical-align:top;
+}
+
+
+
+.intro_link a{
+display:inline-block;width:45%;
+padding:10px  20px;
+color:rgb(207, 44, 3);
+border:solid 2px rgb(207, 44,3);
+text-decoration:none;
+text-align:center;
+border-radius:20px;
+transition:background-color .3s;
+}
+
+
+.intro_link a:hover{
+color:white;
+background-color:rgb(207, 44, 3);}
+
+
+.cover2{
+background-color:rgba(0, 0, 0,0.78);
+height:auto;
+text-align:center;
+padding:50px;
+}
+
+
+
+/*
+========================WHAT WE OFFER
+*/
+
+
+
+.whatwe_offer{
+text-align:center;
+margin-top:25px;
+vertical-align:top;
+}
+
+
+.whatwe_offer_left{
+display:inline-block;
+width:45%;height:auto;
+padding:30px;
+vertical-align:top;
+}
+
+
+.whatwe_offer_left .intro_content{
+color:white;
+}
+
+.wx{
+color:white;
+}
+
+
+
+.whatwe_offer_right .offer_title{
+color:white;
+font-size:20px;
+font-family:verdana;
+padding:25px 0px;
+margin-top:40px;
+background-color:rgba(0, 0, 0,0.78);
+
+}
+
+.whatwe_offer_right{
+display:inline-block;width:30%;height:200px;
+padding:10px  0px;
+vertical-align:top;
+}
+
+.intro_link a{
+display:inline-block;width:45%;
+padding:10px  20px;
+color:rgb(207, 44, 3);
+border:solid 2px rgb(207, 44,3);
+text-decoration:none;
+text-align:center;
+border-radius:20px;
+transition:background-color .3s;
+}
+
+
+.intro_link a:hover{
+color:white;
+background-color:rgb(207, 44, 3);}
+
+
+
+.video{width:800px}
+
+
+
+@media screen and (max-width:750px){
+
+.video{width:400px}
+    
+.whatwe_offer_right{
+width:85%;
+
+}
+
+.whatwe_offer_left{width:95%;height:auto;}
+
+.cover2{
+padding:50px 0px;
+}
+
+
+.intro_right{width:85%;}
+.intro_left{width:85%;}
+}
+
