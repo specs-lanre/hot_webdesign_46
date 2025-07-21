@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sample 4 - selectors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  
+  
+<style>
+ul li {border:solid 2px red;margin:10px;}
+
+div > div {border:solid 2px blue ;margin:10px;}
+
+h1 + span {border:solid 2px yellow;
+color:brown;font-size:22px;;margin:10px;}
+
+p ~ span {border:solid 4px brown;
+color:brown;font-size:22px;;margin:10px;}
+
+ul,ol {border:solid 4px gray;}
+</style>
+  
+  
+  
+  </head>
+  <body>
+ 
+ 
+ <div>
+ <div>DIV inside div tag </div>
+ <span>DIV inside li tag </span>
+ <ul >
+<li> <div>DIV inside li tag inside ul tag inside 
+div tag</div></li>
+</ul>
+
+<div>DIV inside div tag </div>
+</div> 
+
+
+<ul>
+<li> <div>DIV inside li tag 
+
+<div>DIV inside div inside li tag
+ inside ul tag </div>
+
+</div></li>
+</ul>
+
+  <ol >
+  <li> <span>span inside li tag </span>
+  </li>
+  <li> 
+  <h1>H1 inside li tag </h1>
+  <span>span 1 inside li tag  </span>
+  <span>span 2 inside li tag </span>
+  </li>
+
+  <li> 
+  <p>P inside li tag </p>
+  <span>span 1 inside li tag  </span>
+  <span>span 2 inside li tag </span>
+  </li>
+  </ol>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
